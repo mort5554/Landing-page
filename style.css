@@ -1,8 +1,8 @@
 body{
     background-color: #232323;
     margin-top: 0px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 .top-logo{
     display: flex;
@@ -56,7 +56,7 @@ body{
     font-size: large;
     color: white;
     font-size: 21px;
-    
+    line-height: 10px;
 }
 .small-text{
     font-size: small;
@@ -93,24 +93,46 @@ body{
     display: flex;
     font-weight: bold;
     font-size: 19px;
-    align-self: flex-start;
+    align-self: center;
     justify-content: center;
     background-color: white;
-    padding-top: 30px;
+    height: 50px;
+}
+.random{
+    display: flex;
+    align-self: center;
 }
 .boxes{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-bottom: 40px;
 }
-.boxes div{
+.box1,
+.box2,
+.box3,
+.box4{
     display: flex;
     border: 2px solid #2373f4;
     height: 80px;
     width: 80px;
     margin: 20px;
     border-radius: 8px;
+}
+.column-box{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.random-info{
+    font-size: x-small;
+    word-wrap: break-word;
+    width: 70px;
+    gap: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.center{
+    display: flex;
+    justify-content: center;
 }
 .quote-container{
     display: flex;
@@ -129,6 +151,14 @@ body{
     font-size: large;
     font-family: cursive;
 }
+.signature{
+    display: flex;
+    align-self: flex-end;
+}
+.sign-enhance{
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
 .advertisment-container{
     display: flex;
     height: 160px;
@@ -144,7 +174,12 @@ body{
     height: 100px;
     width: 650px;
     border-radius: 7px;
-    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.no-link{
+    color: white;
+    text-decoration: none;
 }
 .advert-text-big{
     color: white;
@@ -168,8 +203,8 @@ body{
     color: white;
     background-color: #3b82f6;
     border-radius: 8px;
-    height: 30px;
-    width: 80px;
+    height: 45px;
+    width: 90px;
 }
 .end-container{
     display: flex;
