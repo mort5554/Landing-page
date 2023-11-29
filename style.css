@@ -1,0 +1,189 @@
+body{
+    background-color: #232323;
+    margin-top: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.top-logo{
+    display: flex;
+    font-size: large;
+    color: white;
+    align-self: center;
+    font-weight: bold;
+    padding: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.link-one,
+.link-two,
+.link-tree{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+.menu-logo{
+    display: flex;
+    background-color: #1F2937;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.links{
+    display: flex;
+    color: whitesmoke;
+    font-size: x-small;
+    justify-content: flex-end;
+}
+.container-head{
+    display: flex;
+    background-color: #1F2937;
+    width: auto;
+    height: 260px;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: stretch;
+}
+.big-text{
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    font-size: 21px;
+    
+}
+.small-text{
+    font-size: small;
+    color: whitesmoke;
+}
+.placeholder{
+    height: 220px;
+    width: auto;
+    padding: auto;
+}
+.big-text,
+.small-text{
+    margin-right: 40px;
+}
+.sign{
+    display: flex;
+    background-color: #3b82f6;
+    color: white;
+    border: 3px solid #3b82f6;
+    width: 100px;
+    justify-content: center;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.middle-container{
+    display: flex;
+    background-color: white;
+    height: 180px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.information{
+    display: flex;
+    font-weight: bold;
+    font-size: 19px;
+    align-self: flex-start;
+    justify-content: center;
+    background-color: white;
+    padding-top: 30px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.boxes div{
+    display: flex;
+    border: 2px solid #2373f4;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.quote-container{
+    display: flex;
+    height: 190px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+.text-quote{
+    color: #232323;
+    font-size: large;
+    font-family: cursive;
+}
+.advertisment-container{
+    display: flex;
+    height: 160px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.advertisment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b82f6;
+    height: 100px;
+    width: 650px;
+    border-radius: 7px;
+    padding: 5px;
+}
+.advert-text-big{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.advert{
+    padding-right: 50px;
+}
+.advert-text-small{
+    color: wheat;
+    font-size: 12px;
+}
+.button-elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.but{
+    border: 1px solid white;
+    color: white;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    height: 30px;
+    width: 80px;
+}
+.end-container{
+    display: flex;
+    width: auto;
+    height: 30px;
+    background-color: #1f2937;
+    justify-content: center;
+}
+.ending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Odin{
+    color: whitesmoke;
+    font-size: xx-small;
+}
